@@ -1,0 +1,224 @@
+ @import url('https://fonts.googleapis.com/css?family=Open+Sans');
+  @import url('https://fonts.googleapis.com/css?family=Poppins: 400, 500, 700');
+
+*{
+  box-sizing: border-box;
+}
+
+html, body{
+  height: 100%;
+  width: 100%;
+  font-family: 'Poppins', sans-serif;
+
+}
+.nav-link{
+  font-size: 1.0rem !important;
+}
+.carousel-caption{
+  position: absolute;
+  top: 20%;
+}
+.carousel-caption h1{
+  text-shadow: 1px 1px 15px #000;
+}
+.carousel-caption h2{
+  text-shadow: 1px 1px 10px #000;
+}
+.carousel-caption button {
+  box-shadow: 1px 2px 2px 1px #000;
+}
+.myBtn{
+  width: 100%;
+  border: 1px solid #ffffff;
+  border-radius: 12px;
+  margin-top: 2vh;
+  padding: 15px;
+}
+.btn{
+  margin-left: auto;
+  margin-right: auto;
+}
+.btn-success{
+  border: 0px;
+  border-radius: 12px;
+}
+  p{
+    color: #ffffff;
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: justify;
+    font-family: Times;
+    word-spacing: 1px;
+  }
+
+
+
+  li a{
+    color: white;
+    font-family: Gill Sans Extrabold, sans-serif;
+    margin-right: 30px;
+    margin-top: 8px;
+
+  }
+
+  .input {
+    width: 250px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    font-size: 1rem;
+    background-color: white;
+    background-image: url('searchicon.png');
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    display: block;
+  }
+  .w3-panel{
+    margin-top: 200px;
+
+  }
+  @media screen and (max-width: 768px) {
+  .w3-panel{
+    margin-top: 15px;
+  }
+  }
+  #hide {
+    height:40px;
+    width:120px;
+    margin: -40px -60px;
+    position:relative;
+    top:50%;
+    left:50%;
+}
+
+  #demo{
+    position: relative;
+    width:150px;
+    height:80px;
+    border-radius:350px;
+    padding: 30px 25px;
+    text-align: center;
+    background:red;
+    color: white;
+    box-shadow: 2px 2px 2px 2px black;
+    animation-name: example;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+    transition: transform 1s;
+  }
+
+  #demo:hover {
+    transform: rotateY(360deg);
+    transform: rotateZ(360deg);
+  }
+
+  @keyframes example {
+    0% {background: red; top:0vh; left:0vw;}
+    20% {background: orangered; top:40vh; left:18vw;}
+    40% {background: blue; top:0vh; left:36vw;}
+    60% {background: green; top:40vh; left:54vw;}
+    80% {background: black; top:0vh; left:72vw;}
+    100% {background: red; top:40vh; left:90vw;}
+  }
+  @media screen and (max-width: 775px) {
+    @keyframes example {
+      0% {background: red; top:0vh; left:0vw;}
+      20% {background: orangered; top:40vh; left:15vw;}
+      40% {background: blue; top:0vh; left:30vw;}
+      60% {background: green; top:40vh; left:45vw;}
+      80% {background: black; top:0vh; left:60vw;}
+      100% {background: red; top:40vh; left:75vw;}
+    }
+}
+
+
+.animation{
+ padding-bottom: 300px;
+}
+
+.service{
+  opacity: 0.5;
+  height:350px;
+  width: 350px;
+  border:none;
+  border-radius: 50%;
+}
+.service:hover {
+  opacity: 1.0;
+}
+@media screen and (max-width: 768px) {
+.service{
+  width: 300px;
+  height: 300px;
+}
+}
+.myKeys {
+  color: #000000;
+  text-shadow: 1px 1px 2px #ffffff;
+}
+.card{
+  border: none;
+  background-color: transparent;
+}
+.fa {
+padding: 20px;
+font-size: 30px;
+width: 70px;
+text-align: center;
+text-decoration: none;
+margin: 5px 10px;
+}
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+background: #3B5998;
+color: white;
+}
+
+.fa-twitter {
+background: #55ACEE;
+color: white;
+}
+
+.fa-google {
+background: #dd4b39;
+color: white;
+}
+
+.fa-linkedin {
+background: #007bb5;
+color: white;
+}
+
+.fa-github{
+  background: black;
+  color: white;
+}
+.fa-youtube {
+background: #bb0000;
+color: white;
+}
+.footer{
+  font-size: 1.0rem;
+  margin: 0;
+  padding: 0;
+  font-family: times;
+  text-align: center;
+}
+.footer:hover{
+  text-decoration: none;
+  color: white;
+}
+.last_footer{
+  background: #595959;
+  text-align: center;
+  margin-top: 0px;
+}
+.last_footer p{
+  text-align: center;
+}
